@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Phone Repair Services'),
+        title: Text('Phone Fixer Crew'),
       ),
       body: ListView(
         children: [

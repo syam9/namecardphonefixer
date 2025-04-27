@@ -15,11 +15,25 @@ class MyApp extends StatelessWidget {
       designSize: Size(375, 812), // iPhone X screen size
       builder: (context, child) {
         return MaterialApp(
-          title: 'Phone Repair Services',
+          title: 'Phone Fixer Crew',
           debugShowCheckedModeBanner: false,
-          theme: ThemeData(
-            // textTheme: GoogleFonts.latoTextTheme(Theme.of(context).textTheme),
-            primarySwatch: Colors.blue,
+                    theme: ThemeData(
+            primaryColor: Color(0xFF01796F), // Dark Pine
+            primarySwatch: MaterialColor(
+              0xFF01796F,
+              {
+                50: Color(0xFF01796F).withOpacity(0.1),
+                100: Color(0xFF01796F).withOpacity(0.2),
+                200: Color(0xFF01796F).withOpacity(0.3),
+                300: Color(0xFF01796F).withOpacity(0.4),
+                400: Color(0xFF01796F).withOpacity(0.5),
+                500: Color(0xFF01796F).withOpacity(0.6),
+                600: Color(0xFF01796F).withOpacity(0.7),
+                700: Color(0xFF01796F).withOpacity(0.8),
+                800: Color(0xFF01796F).withOpacity(0.9),
+                900: Color(0xFF01796F).withOpacity(1.0),
+              },
+            ),
           ),
           home: HomePage(),
         );

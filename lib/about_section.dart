@@ -10,6 +10,15 @@ class AboutSection extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Container(
+            alignment: Alignment.center,
+            height: 200.h, // Height of the image, scaled using ScreenUtil
+            child: Image.asset(
+              'assets/logo.png', // Path to your image asset
+              fit: BoxFit.cover, // Ensures image scales properly
+            ),
+          ),
+          SizedBox(height: 10.h),
           Text(
             'About Us',
             style: Theme.of(context).textTheme.headline4?.copyWith(color: Colors.black87),

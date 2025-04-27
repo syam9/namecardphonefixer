@@ -38,6 +38,9 @@ dependencies:
   responsive_builder: ^0.7.1
   google_fonts: ^6.2.0
   flutter_screenutil: ^5.9.3
+  url_launcher: ^6.1.14
+  url_launcher_web: ^2.0.19
+  flutter_svg: ^2.0.10+1
 
 dev_dependencies:
   flutter_test:
@@ -62,8 +65,16 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/WhatsApp.svg
+    - assets/battery_replacement.png
+    - assets/screen_replacement.png
+    - assets/water_damage_repair.png
+    - assets/logo.png
+    - assets/images/favicon.png
+    - assets/images/favicon.ico
+    - assets/images/favicon-32x32.png
+    - assets/images/favicon-16x16.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
