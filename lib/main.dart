@@ -1,12 +1,19 @@
 import 'package:flutter/material.dart';
-// import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'home_page.dart';
 
-void main() {
-  runApp(MyApp());
-}
+import 'package:provider/provider.dart';
+import 'translation_provider.dart';
 
+void main() {
+  // runApp(MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (_) => TranslationProvider(),
+      child: MyApp(),
+    ),
+  );
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -17,7 +24,7 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           title: 'Phone Fixer Crew',
           debugShowCheckedModeBanner: false,
-                    theme: ThemeData(
+          theme: ThemeData(
             primaryColor: Color(0xFF01796F), // Dark Pine
             primarySwatch: MaterialColor(
               0xFF01796F,
