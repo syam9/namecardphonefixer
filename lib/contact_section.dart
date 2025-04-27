@@ -35,7 +35,7 @@ class ContactSection extends StatelessWidget {
             children: [
               Icon(Icons.phone),
               SizedBox(width: 10.w),
-              Text('+60 111 887 2966'),
+              Text('+60 111 887 2966 (Syam)'),
             ],
           ),
           SizedBox(height: 10.h),
