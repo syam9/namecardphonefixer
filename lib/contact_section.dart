@@ -49,7 +49,7 @@ class ContactSection extends StatelessWidget {
                   children: [
                     Icon(Icons.phone),
                     SizedBox(width: 10.w),
-                    Text('+60 111 887 2966 (Syam)'),
+                    Text('+60 111 850 2966 (Syam)'),
                   ],
                 ),
                 SizedBox(height: 10.h),
@@ -67,8 +67,8 @@ class ContactSection extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {
                       // Gantikan nombor telefon dengan nombor sebenar
-                      final phoneNumber = '+601118872966'; // Nombor telefon
-                      final url = 'https://wa.me/$phoneNumber'; // URL WhatsApp
+                      final phoneNumber = '+601118502966'; // Nombor telefon
+                      final url = 'https://wa.me/$phoneNumber?text=phone'; // URL WhatsApp
                       _launchURL(url); // Buka WhatsApp dengan URL
                     },
                     child: Row(

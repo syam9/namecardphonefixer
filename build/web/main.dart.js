@@ -69605,7 +69605,7 @@ o=A.aF(a).p3.e
 p=A.fS(p,g,g,g,g,o==null?g:o.em(B.q),g,g)
 o=A.e7(g,10*$.dL().giV(),g)
 n=t.F
-m=A.xw(A.a([A.a_q(B.DN,g,g),A.e7(g,g,10*$.dL().gjD()),A.fS("+60 111 887 2966 (Syam)",g,g,g,g,g,g,g)],n),B.cD,B.bc,B.bA)
+m=A.xw(A.a([A.a_q(B.DN,g,g),A.e7(g,g,10*$.dL().gjD()),A.fS("+60 111 850 2966 (Syam)",g,g,g,g,g,g,g)],n),B.cD,B.bc,B.bA)
 l=A.e7(g,10*$.dL().giV(),g)
 k=A.xw(A.a([A.a_q(B.DK,g,g),A.e7(g,g,10*$.dL().gjD()),A.fS("phonefixercrew@gmail.com",g,g,g,g,g,g,g)],n),B.cD,B.bc,B.bA)
 j=A.e7(g,20*$.dL().giV(),g)
@@ -69615,7 +69615,7 @@ q=A.xw(A.a([new A.Kp(24,24,new A.yr("assets/WhatsApp.svg",g,g,g,g),h,g),A.e7(g,g
 return A.hC(g,A.W3(A.a([p,o,m,l,k,j,A.e7(new A.EU(new A.Wd(this.a),g,g,g,A.am1(g,g,g,g,g,g,g,g,g,new A.Q(i,50),g,g,g,new A.bc(20,15,20,15),new A.U(4278286703),g,new A.dc(A.ahy(30),B.r),g,g,g,g),B.H,g,!1,g,q,g),this.c/14,i)],n),B.bX,B.bc,B.bA),B.jW,g,g,g,g,new A.bc(r,r,r,r),g)}return A.VC()},
 $S:58}
 A.Wd.prototype={
-$0(){this.a.oO("https://wa.me/+601118872966")},
+$0(){this.a.oO("https://wa.me/+601118502966?text=phone")},
 $S:0}
 A.FR.prototype={
 N(a){var s=null,r=A.a31(a,t.BU),q=t.N,p=A.FC(new A.a_0(),r.fq(0,"Phone Fixer Crew"),q),o=r.a,n=A.hC(s,s,s,s,s,s,s,s,s),m=A.a_q(B.DL,B.i,s),l=A.jr(s,s,B.ho,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),k=t.F
