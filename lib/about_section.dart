@@ -59,7 +59,8 @@ class AboutSection extends StatelessWidget {
 
 
         }
-        return CircularProgressIndicator();
+        // return CircularProgressIndicator();
+        return Center(child: SizedBox(height: 20, width: 20, child: CircularProgressIndicator()));
       },
     );
   }

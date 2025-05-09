@@ -26,47 +26,47 @@ class HomePage extends StatelessWidget {
           },
         ),
         actions: [
-            Padding(
-                padding: EdgeInsets.all(10),
-          child: DropdownButton<String>(
-            value: translationProvider.selectedLanguage,
-            underline: Container(),
-            icon: Icon(Icons.language, color: Colors.white),
-                  style: TextStyle(
-        color: Colors.blue,  // Warna teks pada nilai yang dipilih
-      ),
-            items: [
-              DropdownMenuItem(
-                  value: 'en',
-                  child: Text(
-                    'English',
-                    style: TextStyle(
-                      color: Colors.black, // Warna teks
-                    ),
-                  )),
-              DropdownMenuItem(
-                  value: 'ms',
-                  child: Text(
-                    'Malay',
-                    style: TextStyle(
-                      color: Colors.black, // Warna teks
-                    ),
-                  )),
-              DropdownMenuItem(
-                  value: 'zh',
-                  child: Text(
-                    'Chinese',
-                    style: TextStyle(
-                      color: Colors.black, // Warna teks
-                    ),
-                  )),
-            ],
-            onChanged: (lang) {
-              if (lang != null) {
-                translationProvider.changeLanguage(lang);
-              }
-            },
-          ),
+          Padding(
+            padding: EdgeInsets.all(10),
+            child: DropdownButton<String>(
+              value: translationProvider.selectedLanguage,
+              underline: Container(),
+              icon: Icon(Icons.language, color: Colors.white),
+              style: TextStyle(
+                color: Colors.blue, // Warna teks pada nilai yang dipilih
+              ),
+              items: [
+                DropdownMenuItem(
+                    value: 'en',
+                    child: Text(
+                      'English',
+                      style: TextStyle(
+                        color: Colors.black, // Warna teks
+                      ),
+                    )),
+                DropdownMenuItem(
+                    value: 'ms',
+                    child: Text(
+                      'Malay',
+                      style: TextStyle(
+                        color: Colors.black, // Warna teks
+                      ),
+                    )),
+                DropdownMenuItem(
+                    value: 'zh',
+                    child: Text(
+                      'Chinese',
+                      style: TextStyle(
+                        color: Colors.black, // Warna teks
+                      ),
+                    )),
+              ],
+              onChanged: (lang) {
+                if (lang != null) {
+                  translationProvider.changeLanguage(lang);
+                }
+              },
+            ),
           ),
         ],
       ),

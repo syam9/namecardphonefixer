@@ -42,6 +42,27 @@ class ServicesSection extends StatelessWidget {
                     physics:
                         NeverScrollableScrollPhysics(), // Mencegah scroll dalam GridView
                     children: [
+                      Container(
+                        padding:
+                            EdgeInsets.symmetric(vertical: 1, horizontal: 3),
+                        decoration: BoxDecoration(
+                          // color: Colors.black,
+                          borderRadius: BorderRadius.circular(1),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Color(0xFF047c6c).withOpacity(0.5), // Glow color
+                              blurRadius: 10, // Set blur effect
+                              spreadRadius:
+                                  2, // Expand the shadow (make it bigger)
+                              offset: Offset(0, 0), // Position of the shadow
+                            ),
+                          ],
+                        ),
+                        child: _serviceCard(
+                            'Sparepart Hunter/Rare Phone Parts Provider',
+                            'Sparepart Hunter is your go-to source for rare and discontinued phone parts. We track down the hard-to-find so you can bring old phones back to life.',
+                            translationProvider),
+                      ),
                       _serviceCard(
                           'LCD Screen Replacement',
                           'We offer quick and reliable screen replacements for various phone models.',
@@ -82,7 +103,10 @@ class ServicesSection extends StatelessWidget {
             );
           }
 
-          return CircularProgressIndicator();
+          // return CircularProgressIndicator();
+          return Center(
+              child: SizedBox(
+                  height: 20, width: 20, child: CircularProgressIndicator()));
         });
   }
 
@@ -127,7 +151,10 @@ class ServicesSection extends StatelessWidget {
             ),
           );
         }
-        return CircularProgressIndicator();
+        // return CircularProgressIndicator();
+        return Center(
+            child: SizedBox(
+                height: 20, width: 20, child: CircularProgressIndicator()));
       },
     );
   }
